@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protect Our Planet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #2d6a4f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #40916c;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        footer {
+            background-color: #2d6a4f;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .hero {
+            background-image: url('https://via.placeholder.com/1500x400');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Protect Our Planet</h1>
+    <p>Act Today for a Better Tomorrow</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#causes">Causes</a>
+    <a href="#solutions">Solutions</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="hero">
+    <div>Let's Work Together to Save the Environment</div>
+</div>
+
+<div class="container">
+    <section id="about" class="section">
+        <h2>About Us</h2>
+        <p>We are a global community dedicated to raising awareness about environmental issues and promoting sustainable practices to protect our planet for future generations.</p>
+    </section>
+
+    <section id="causes" class="section">
+        <h2>Environmental Causes</h2>
+        <ul>
+            <li>Climate Change</li>
+            <li>Deforestation</li>
+            <li>Pollution</li>
+            <li>Loss of Biodiversity</li>
+        </ul>
+    </section>
+
+    <section id="solutions" class="section">
+        <h2>Our Solutions</h2>
+        <p>We focus on education, reforestation projects, reducing plastic use, and renewable energy adoption to combat environmental challenges.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: info@protectourplanet.org</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2025 Protect Our Planet. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
